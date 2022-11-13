@@ -1,15 +1,11 @@
 #include<iostream>
 using namespace std;
 int main() {
-	int n,N;
-	n=1;
+	int i,n;
 	cout<<"Enter the number of elements :";
-	cin>>N;
-	if(n<N) {
-		cout<<n;
-		n=n+1;
-	}
-	else {
-		cout<<n;
+	cin>>n;
+	cout<<"Here's the list :"<<endl;
+	for(i=1;i<=n;i++) {
+		cout<<i<<endl;
 	}
 }
